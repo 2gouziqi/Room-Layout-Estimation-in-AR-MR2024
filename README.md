@@ -3,8 +3,6 @@ Course Project for ETH Zurich - Mixed Reality - Autumn Semester 2024
 
 ## 1. Environment Setup
 1. Clone this repository to your local machine.
-2. Ensure you have Python installed (e.g., 3.8+).
-3. Create or activate a Python virtual environment (e.g., `conda` or `venv`).
 4. Install dependencies with:
    ```bash
    pip install -r requirements.txt
@@ -15,9 +13,7 @@ Course Project for ETH Zurich - Mixed Reality - Autumn Semester 2024
 2. This notebook walks through:
    - Initializing the environment
    - Loading images and metadata
-   - Estimating 2D layouts
-   - Aligning depth and color images
-   - Estimating 3D lines
+   - Estimating layouts
    - Rendering results for inspection
 
 ## 3. Running on Magic Leap 2
