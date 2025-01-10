@@ -1,0 +1,49 @@
+{
+    "color_camera": {
+        "extrinsics": {
+            "position": {
+                "x": -1.014555,
+                "y": 1.647895,
+                "z": -3.636491
+            },
+            "rotation": {
+                "x": -0.01014759,
+                "y": 0.04276589,
+                "z": 0.01958668,
+                "w": 0.9988416
+            }
+        },
+        "intrinsics": {
+            "width": 640,
+            "height": 480,
+            "fov": 74.32295,
+            "focalLength": {
+                "fx": 507.4373,
+                "fy": 507.2449
+            },
+            "principalPoint": {
+                "cx": 320.449,
+                "cy": 243.1712
+            }
+        }
+    },
+    "depth_camera": {
+        "intrinsics": {
+            "width": 544,
+            "height": 480,
+            "fov": 88.79827,
+            "focalLength": {
+                "fx": 365.8071,
+                "fy": 365.8071
+            },
+            "principalPoint": {
+                "cx": 265.4023,
+                "cy": 240.5803
+            }
+        },
+        "width": 544,
+        "height": 480,
+        "min_depth": 0.01457977,
+        "max_depth": 7.457031
+    }
+}
