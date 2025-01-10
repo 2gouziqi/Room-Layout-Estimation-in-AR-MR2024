@@ -7,7 +7,7 @@ Course Project for ETH Zurich - Mixed Reality - Autumn Semester 2024
    ```bash
    pip install -r requirements.txt
 
-## 2. Testing the Workflow Locally
+## 2. Testing the Backend Part Locally
 
 1. Open and run **`test.ipynb`** to see the entire process demonstrated with an example dataset.
 2. This notebook walks through:
@@ -34,5 +34,11 @@ For real-world usage on Magic Leap 2, follow these steps:
 
 4. **Rendering**  
    Once the new images and metadata are received, the room layout estimation and rendering pipeline will process them for visualization.
+  
+## 4. Testing the Workflow Locally
+
+1. Run **`run_monitor.bat`** and **`newtxt.py`** as explained above.
+2. Manually add an index in **`index.json`**.
+3. **Important Note**: Because Unity uses a left-hand coordinate convention, there are slight differences in how lines are rendered here (for real time case) compared to the results shown in Section 2 (for verification case, all right-hand assumption used). Nonetheless, the final outcomes have been verified to be correct during real-world rendering.
 
 **Enjoy exploring room layout estimation for AR/MR applications!**
