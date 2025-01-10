@@ -1,5 +1,5 @@
-# Room-Layout-Estimation-in-AR-MR2024-
-Course Project for ETH Zurich - Mixed Reality - Autumn Semester 2024
+# Room-Layout-Estimation-in-AR-MR2024
+This repository provides a streamlined pipeline for room layout estimation in AR, optimized for Magic Leap 2. By integrating lightweight 2D boundary segmentation (ST-RoomNet), refined 2D and 3D line generation, and user-centric rendering, the system delivers robust performance and intuitive interaction. Clutter is reduced and structural clarity is enhanced, resulting in a comfortable, user-friendly experience. Future directions include exploring long-range depth sensing, advanced room layout models, and improved AR interfaces.
 
 ## 1. Environment Setup
 1. Clone this repository to your local machine.
@@ -39,6 +39,6 @@ For real-world usage on Magic Leap 2, follow these steps:
 
 1. Run **`run_monitor.bat`** and **`newtxt.py`** as explained above.
 2. Manually add an index in **`index.json`**.
-3. **Important Note**: Because Unity uses a left-hand coordinate convention, there are slight differences in how lines are rendered here (for real time case) compared to the results shown in Section 2 (for verification case, all right-hand assumption used). Nonetheless, the final outcomes have been verified to be correct during real-world rendering.
+3. **Important Note**: Because Unity uses a left-hand coordinate convention, there are slight differences in how lines are rendered here (for real time case) compared to the methodes shown in Section 2 (for verification case, all right-hand assumptions used). Nonetheless, the final outcomes have been verified to be correct during real-world rendering.
 
 **Enjoy exploring room layout estimation for AR/MR applications!**
