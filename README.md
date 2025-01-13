@@ -1,9 +1,6 @@
 # Room-Layout-Estimation-in-AR-MR2024
 
-<video width="600" controls>
-  <source src="demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![演示视频](./assets/demo.gif)
 
 This repository provides a streamlined pipeline for room layout estimation in AR, optimized for Magic Leap 2. By integrating lightweight 2D boundary segmentation (ST-RoomNet), refined 2D and 3D line generation, and user-centric rendering, the system delivers robust performance and intuitive interaction. Clutter is reduced and structural clarity is enhanced, resulting in a comfortable, user-friendly experience. Future directions include exploring long-range depth sensing, advanced room layout models, and improved AR interfaces.
 
