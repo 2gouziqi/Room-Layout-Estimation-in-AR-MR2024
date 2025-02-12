@@ -42,6 +42,6 @@ For real-world usage on Magic Leap 2, follow these steps:
 
 1. Run **`run_monitor.bat`** and **`newtxt.py`** as explained above.
 2. Manually add an index in **`index.json`**.
-3. **Important Note**: Because Unity uses a left-hand coordinate convention, there are slight differences in how lines are rendered here (for real time case) compared to the methodes shown in Section 2 (for verification case, all right-hand assumptions used). Nonetheless, the final outcomes have been verified to be correct during real-world rendering.
+3. **Important Note**: You may find slight differences between how rendered lines are plotted here compared to the methods shown in Section 2. This is to make sure that the lines are rendered correctly in Magic Leap 2 because of coordinate convention differenences.
 
 **Enjoy exploring room layout estimation for AR/MR applications!**
